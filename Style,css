@@ -1,0 +1,59 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+  color: #f0c040;
+}
+
+section {
+  padding: 40px;
+}
+
+.productos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+button {
+  background: #f0c040;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #ffdb70;
+}
